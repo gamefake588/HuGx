@@ -1,0 +1,134 @@
+label{
+    font-size: 100%;
+}
+.title{
+    width: 100%;
+    height: 450px;
+    background-image: url(../images/shop/a1.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.title-T{
+    position: absolute;
+    text-align: center;
+    width: inherit;
+    font-size: 2rem;
+    line-height: 450px;
+}
+
+/* 商品展示 */
+.pipo-Exhibition{
+    display: none;
+}
+.shop-Exhibition{
+
+}
+.shop-Exhibition-son{
+    clear:both;
+    overflow:hidden;
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+}
+.Exhibition-left{
+    width: 30%;
+    float: left;
+    height: auto;
+}
+.Exhibition-left-son{
+    padding: 5% 20%;
+}
+.Exhibition-left-son input,.classification{
+    margin: 5% 0%;
+}
+.Exhibition-left-son button{
+    padding: 2% 15%;
+    background-color: #e0d24d;
+    border: none;
+    color: rgb(255, 255, 255);
+    margin-top: 5%;
+}
+
+.Exhibition-right{
+    width: 70%;
+    float: left;
+    height: auto;
+}
+.Exhibition-right-img-son{
+    width: 100%;
+    height: 380px;
+    padding:0%;
+}
+.max-992{
+    display: none;
+}
+.Exhibition-right-img-son img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.Exhibition-right-img{
+    width: 26%;
+    float: left;
+}
+.Exhibition-right-describe{
+    width: 60%;
+    float: left;
+    padding-left: 3%;
+}
+.Exhibition-right-describe button{
+    border: none;
+    background-color: #f6f6f6;
+    padding: 1% 10%;
+}
+.Exhibition-right-describe button:hover{
+    background-color: #d19f4f;
+    color: white;
+    transition: all 1s;
+}
+.Exhibition-right-describe .details{
+    margin: 10% 0%;
+}
+.Original-price{
+    text-decoration:line-through;
+}
+.Present-price{
+    color: black;
+    font-size: 1.2rem;
+}
+.Commodity-paging{
+    width: auto;
+    height: auto;
+    clear: both;
+    overflow: hidden;
+    margin: 15% 0 8% 0;
+}
+.Commodity-paging li{
+    float: left;
+    display: block;
+    width: auto;
+    margin-left: 1%;
+}
+.Commodity-paging a{
+    padding: 2% 10px;
+    background-color: #a59b9b;
+    display: block;
+    width: auto;
+}
+.Commodity-paging .active a{
+    border: 1px solid #f6f6f6;
+    background-color: white !important;
+    color: #e0d24d !important;
+}
+.letter-spacing{
+    letter-spacing: 3px;
+}
+.Exhibition-right-describe p{
+    font-size: 13px;
+    color: #a59b9b;
+}
+#image-test,#image-test1,#image-test2,#image-test3,#image-test4,#image-test5{
+    opacity: 0;
+}

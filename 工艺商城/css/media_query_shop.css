@@ -1,0 +1,116 @@
+/* 媒体查询 */
+
+
+/* 小于1200像素 */
+@media(max-width:1200px){
+
+    div{transition: all 1s;}
+
+    .Exhibition-right-describe{
+        padding: 0% 5% 5% 5%;
+    }
+    .Exhibition-right-img{
+        width: auto;
+    }
+    .Exhibition-left-son{
+        padding: 0% 10% 5% 15%;
+    }
+    /* .Exhibition-right-describe .details{
+        margin: 5% 0%;
+    } */
+
+
+}
+
+
+/* 小于992像素 */
+@media(max-width:992px){
+
+    .Exhibition-left{
+        float: none;
+        width: 100%;
+        clear: both;
+        overflow: hidden;
+    }
+    .Exhibition-right{
+        float: none;
+        margin: 0 5%;
+        width: 100%;
+    }
+    .Exhibition-left-son{
+        display: none;
+    }
+    .pipo-Exhibition,select{
+        display: block;
+    }
+    .pipo-Exhibition button{
+        width: auto;
+        float: left;
+        margin: 0 5%;
+        padding: 5px 8%;
+        background-color: #bd8448;
+        border: none;
+        color: white;
+    }
+    .pipo-Exhibition select{
+        width: auto;
+        float: right;
+    }
+    
+
+
+}
+
+
+/* 小于768像素 */
+@media(max-width:768px){
+
+    .Exhibition-right-describe{
+        display: none;
+
+    }
+    .Exhibition-right-img-son{
+        width: 45%;
+        float: left;
+        height: 350px;
+        margin: 15px 0;
+    }
+    .Exhibition-right-img-son img{
+        width: 100%;
+        height: 300px;
+    }
+    .Exhibition-right-img{
+        width: 90%;
+        background-color: #f6f6f6;
+        padding-bottom: 15px;
+    }
+    .max-992{
+        display: block;
+        text-align: center;
+        font-weight: bold;
+    }
+
+
+
+}
+
+
+/* 小于480像素 */
+@media(max-width:480px){
+
+    .Exhibition-right-img-son,.Exhibition-right-img-son img{
+        height: auto;
+        overflow: hidden;
+    }
+    .Exhibition-right-img-son{
+        margin: 2% 2% 2% 0%;
+    }
+    .Exhibition-right-img{
+        width: 100%;
+    }
+    .max-992{
+        font-weight: normal;
+    }
+
+
+}

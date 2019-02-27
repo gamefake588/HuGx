@@ -1,0 +1,114 @@
+.title{
+    width: 100%;
+    height: 450px;
+    background-image: url(../images/shop/a2.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.title-T{
+    position: absolute;
+    text-align: center;
+    width: inherit;
+    font-size: 2rem;
+    line-height: 450px;
+}
+
+
+.blog-main{
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+}
+.blog-main-son{
+    width: inherit;
+    float: left;
+    padding: 2% 10%;
+}
+.blog-one{
+    width: 30%;
+    float: left;
+    height: 720px;
+    background-color: #f6f6f6;
+    position: relative;
+}
+.blog-two{
+    width: 30%;
+    float: left;
+    height: 550px;
+    background-color: #f6f6f6;
+    margin: 0% 2%;
+    position: relative;
+}
+.blog-one,.blog-two{
+    margin-top: 2%;
+}
+.margin-top{
+    margin-top: 10%;
+}
+.one-top{
+    width: 100%;
+    overflow: hidden;
+}
+.one-date{
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    margin-left: -35px;
+    width: 60px;
+    background-color: #bd8448;
+    height: 60px;
+    border-radius: 50%;
+    padding: 8px 0;
+}
+.one-date .month,.day{
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+}
+.one-date .month{
+    font-size: 80%;
+}
+.one-date .day{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.two-date{
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    margin-left: -35px;
+    width: 60px;
+    background-color: #bd8448;
+    height: 60px;
+    border-radius: 50%;
+    padding: 8px 0;
+}
+.two-date .month,.day{
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+}
+.two-date .month{
+    font-size: 80%;
+}
+.two-date .day{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.one-lower{
+    position: relative;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.lower-title{
+    padding: 20px 0 0 0;
+}
+.one-lower p{
+    font-size: 80%;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    color: #999;
+    line-height: 22px;
+}

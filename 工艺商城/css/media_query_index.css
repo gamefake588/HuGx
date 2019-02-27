@@ -1,0 +1,180 @@
+/* 媒体查询 */
+
+/* 小于1200像素 */
+@media(max-width:1200px){
+
+div{transition: all 1s;}
+.New-items-left .margin-left,.New-items-right .margin-left{
+    margin-left: 3%;
+}
+.New-items-right{
+    margin-left: 3%;
+}
+.bulge-son-one{
+    margin: 0% 1%;
+}
+.header_title{
+    font-size: 1.6rem;
+    transition: all 1s;
+}
+
+}
+
+/* 小于992像素 */
+@media(max-width:992px){
+
+    div{transition: all 1s;}
+    .bulge-son-one,.bulge-son-two,.bulge-son-three{
+        width: 100%;
+        margin:2% auto;
+        float: none;
+        height: 300px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .bulge-father{
+        height: auto;
+    }
+    .bulge-Grandson{
+        padding: 5% 0%;
+        font-size: 1.2rem;
+    }
+    .bulge-Grandson a{
+        font-size: 1rem;
+    }
+    /* nav{
+        position: fixed;
+        top: 0;
+        z-index: 9999;
+    }
+    .menu-fixed{
+        height: 56px;
+    } */
+    .combination{
+        height: 70vh;
+        background-color:rgb(255, 255,255,1);
+        background-image: url('../images/bg4.jpg');
+        background-size: cover;
+    }
+    .bulge{
+        position: relative;
+        top: 0;
+        height: auto;
+    }
+    .bulge-son{
+        clear: both;
+        height: auto;
+    }
+    .New-items-left, .New-items-right{
+        width: 100%;
+        clear: both;
+    }
+    .First-episode{
+        height: auto;
+    }
+    .New-items-right{
+        margin: 2% 0;
+    }
+    .Best-Sellers{
+        padding-top: 8%;
+        height: auto;
+    }
+    .Blog{
+        padding-top: 8%;
+        height: auto;
+    }
+    .New-items img{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        
+    }
+    .items-bottom-one{
+        float: none;
+        width: 100%;
+        margin: 2% 0%;
+        margin-left: 0　!important;
+    }
+    .content-commodity .a {
+        height: auto;
+    }
+    .content-commodity{
+        text-align: center;
+    }
+
+}
+
+/* 小于768像素 */
+@media(max-width:768px){
+
+    .header_title{
+        font-size: 120%;
+        font-weight: bold;
+    }
+    .line-abs{
+        padding-top: 2.5%;
+    }
+    .title-son{
+        font-size: 90%;
+    }
+    .combination{
+        height: 30vh;
+    }
+    .items-left-Small,.New-items-right{
+        padding: 0% 3%;
+    }
+
+}
+
+/* 小于480像素 */
+@media(max-width:480px){
+    
+    .Best-Sellers-son,.First-episode-son,.Blog-son,.bulge-son{
+        width: 100%;
+    }
+    .header_title{
+        font-size: 100%;
+        font-weight: normal;
+        width: 20%;
+    }
+    .line-abs{
+        width: 40%;
+        padding-top: 2.5%;
+    }
+    .Blog-content{
+        margin: 5% 0;
+    }
+    .items-left-large,.items-right-large{
+        display: none;
+    }
+    .items-bottom-left{
+        padding: 5%;
+    }
+    .bulge-son-one,.bulge-son-two,.bulge-son-three{
+        height: 200px;
+        margin: 5% 0%;
+    }
+    .bulge-son{
+        padding: 0% 5%;
+    }
+    .items-bottom-left .Storage{
+        font-size: 100%;
+    }
+    .items-bottom-left .bottle,.items-bottom-left .p{
+        font-size: 80%;
+    }
+    .items-bottom-left .button{
+        padding: 5%;
+    }
+    .items-bottom-one{
+        height: auto;
+    }
+    .content-commodity a{
+        font-size: 1.2rem;
+    }
+    .Blog-content-two p{
+        text-align: center;
+    }
+
+}

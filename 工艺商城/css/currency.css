@@ -1,0 +1,87 @@
+a:hover{text-decoration: none;}
+
+a{
+    color: #000 !important;
+}
+nav{
+    background-color: #f6f6f6;
+    box-shadow:none;
+}
+.left span{
+    font-size: 10px;
+}
+.brand-logo img{
+    height: 40px;
+    margin-top: 12px;
+}
+
+
+
+
+
+/* 脚 */
+.footer{
+    height: 200px;
+    background-color: #1f1f1f;
+    clear: both;
+    overflow: hidden;
+}
+.footer-left{
+    width: 40%;
+    float: left;
+    padding: 5% 0% 5% 15%;
+}
+.footer-right{
+    width: 50%;
+    float: left;
+    padding: 5% 5% 5% 0%;
+    color: #c4baba;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+.footer-right hr{
+    margin: 3% 0%;
+}
+
+/* 小于992像素 */
+@media(max-width:992px){
+
+    nav{
+        position: fixed;
+        top: 0;
+        z-index: 9999;
+    }
+    .menu-fixed{
+        height: 56px;
+    }
+    .footer-left,.footer-right{
+        float: none;
+        margin: auto;
+        
+    }
+    .footer-left{
+        display: none;
+    }
+    .footer-right{
+        width: 100%;
+        text-align: center;
+        padding: 5% 5% 5% 5%;
+    }
+    .footer{
+        height: auto;
+    }
+
+}
+
+
+@media(max-width:480px){
+    .title{
+        height: 90px;
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .title-T{
+        line-height: 100px;
+    }
+}
